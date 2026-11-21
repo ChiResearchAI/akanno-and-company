@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" fill="#0f2438"/>
+  <rect x="1.6" y="1.6" width="28.8" height="28.8" fill="none"
+        stroke="#fbfaf6" stroke-opacity=".5" stroke-width="1"/>
+  <g fill="#fbfaf6">
+    <!-- left thin stroke of the A, down to the baseline at y=26.4 -->
+    <path d="M14.9 5.6 L17.0 5.6 L10.1 26.4 L7.6 26.4 Z"/>
+    <!-- right thick stroke, heavier for serif contrast -->
+    <path d="M15.0 5.6 L18.2 5.6 L25.1 26.4 L21.4 26.4 Z"/>
+    <!-- crossbar -->
+    <rect x="10.5" y="19.4" width="11.2" height="2.0"/>
+    <!-- foot serifs: overlap the stroke ends so they read as one shape -->
+    <rect x="4.9" y="24.9" width="8.0" height="1.5"/>
+    <rect x="19.8" y="24.9" width="8.0" height="1.5"/>
+  </g>
+</svg>
